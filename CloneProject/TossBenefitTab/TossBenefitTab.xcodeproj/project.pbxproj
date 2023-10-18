@@ -22,6 +22,8 @@
 		EFF6D23C2ADD670D00448E29 /* TodayBenefitCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFF6D23B2ADD670D00448E29 /* TodayBenefitCell.swift */; };
 		EFF6D23E2ADD671900448E29 /* BenefitCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFF6D23D2ADD671900448E29 /* BenefitCell.swift */; };
 		EFF6D2402ADD6E8F00448E29 /* TodaySectionItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFF6D23F2ADD6E8F00448E29 /* TodaySectionItem.swift */; };
+		EFF6D2422ADFC66500448E29 /* MyPoint.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EFF6D2412ADFC66500448E29 /* MyPoint.storyboard */; };
+		EFF6D2442ADFC69700448E29 /* MyPoinViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFF6D2432ADFC69700448E29 /* MyPoinViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,6 +63,8 @@
 		EFF6D23B2ADD670D00448E29 /* TodayBenefitCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodayBenefitCell.swift; sourceTree = "<group>"; };
 		EFF6D23D2ADD671900448E29 /* BenefitCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BenefitCell.swift; sourceTree = "<group>"; };
 		EFF6D23F2ADD6E8F00448E29 /* TodaySectionItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodaySectionItem.swift; sourceTree = "<group>"; };
+		EFF6D2412ADFC66500448E29 /* MyPoint.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MyPoint.storyboard; sourceTree = "<group>"; };
+		EFF6D2432ADFC69700448E29 /* MyPoinViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyPoinViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,6 +118,7 @@
 				94BD3355285D5C9E008DA3B7 /* AppDelegate.swift */,
 				94BD3357285D5C9E008DA3B7 /* SceneDelegate.swift */,
 				EFF6D2382ADD64FB00448E29 /* Home */,
+				EFF6D2452ADFC69C00448E29 /* MyPoint */,
 				EFF6D2372ADD64F200448E29 /* Model */,
 				94BD335E285D5CA1008DA3B7 /* Assets.xcassets */,
 				94BD3360285D5CA1008DA3B7 /* LaunchScreen.storyboard */,
@@ -159,6 +164,15 @@
 				EFF6D23D2ADD671900448E29 /* BenefitCell.swift */,
 			);
 			path = Home;
+			sourceTree = "<group>";
+		};
+		EFF6D2452ADFC69C00448E29 /* MyPoint */ = {
+			isa = PBXGroup;
+			children = (
+				EFF6D2412ADFC66500448E29 /* MyPoint.storyboard */,
+				EFF6D2432ADFC69700448E29 /* MyPoinViewController.swift */,
+			);
+			path = MyPoint;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -266,6 +280,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				94BD3362285D5CA1008DA3B7 /* LaunchScreen.storyboard in Resources */,
+				EFF6D2422ADFC66500448E29 /* MyPoint.storyboard in Resources */,
 				94BD335F285D5CA1008DA3B7 /* Assets.xcassets in Resources */,
 				94BD335D285D5C9E008DA3B7 /* Main.storyboard in Resources */,
 			);
@@ -294,6 +309,7 @@
 			files = (
 				EFF6D2342ADD64DA00448E29 /* MyPoint.swift in Sources */,
 				EFF6D2402ADD6E8F00448E29 /* TodaySectionItem.swift in Sources */,
+				EFF6D2442ADFC69700448E29 /* MyPoinViewController.swift in Sources */,
 				EFF6D23E2ADD671900448E29 /* BenefitCell.swift in Sources */,
 				EFF6D2302ADD255B00448E29 /* BenefitListViewController.swift in Sources */,
 				EFF6D2322ADD64D300448E29 /* Benefit.swift in Sources */,
