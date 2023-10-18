@@ -27,6 +27,7 @@
 		EFF6D2472ADFDC2F00448E29 /* ButtonBenefit.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EFF6D2462ADFDC2F00448E29 /* ButtonBenefit.storyboard */; };
 		EFF6D24D2ADFDC6000448E29 /* ButtonBenefitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFF6D24C2ADFDC6000448E29 /* ButtonBenefitViewController.swift */; };
 		EFF6D2502ADFDCC700448E29 /* BenefitDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFF6D24F2ADFDCC700448E29 /* BenefitDetails.swift */; };
+		EFF6D2522ADFE28F00448E29 /* BenefitGuideView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFF6D2512ADFE28F00448E29 /* BenefitGuideView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -71,6 +72,7 @@
 		EFF6D2462ADFDC2F00448E29 /* ButtonBenefit.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ButtonBenefit.storyboard; sourceTree = "<group>"; };
 		EFF6D24C2ADFDC6000448E29 /* ButtonBenefitViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonBenefitViewController.swift; sourceTree = "<group>"; };
 		EFF6D24F2ADFDCC700448E29 /* BenefitDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BenefitDetails.swift; sourceTree = "<group>"; };
+		EFF6D2512ADFE28F00448E29 /* BenefitGuideView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BenefitGuideView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -188,6 +190,7 @@
 			children = (
 				EFF6D2462ADFDC2F00448E29 /* ButtonBenefit.storyboard */,
 				EFF6D24C2ADFDC6000448E29 /* ButtonBenefitViewController.swift */,
+				EFF6D2512ADFE28F00448E29 /* BenefitGuideView.swift */,
 			);
 			path = Benefit;
 			sourceTree = "<group>";
@@ -337,6 +340,7 @@
 				EFF6D23A2ADD66FB00448E29 /* MyPointCell.swift in Sources */,
 				EFF6D2502ADFDCC700448E29 /* BenefitDetails.swift in Sources */,
 				94BD3358285D5C9E008DA3B7 /* SceneDelegate.swift in Sources */,
+				EFF6D2522ADFE28F00448E29 /* BenefitGuideView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
