@@ -28,6 +28,9 @@
 		EFF6D24D2ADFDC6000448E29 /* ButtonBenefitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFF6D24C2ADFDC6000448E29 /* ButtonBenefitViewController.swift */; };
 		EFF6D2502ADFDCC700448E29 /* BenefitDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFF6D24F2ADFDCC700448E29 /* BenefitDetails.swift */; };
 		EFF6D2522ADFE28F00448E29 /* BenefitGuideView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFF6D2512ADFE28F00448E29 /* BenefitGuideView.swift */; };
+		EFF6D2542AE0FFAC00448E29 /* BenefitListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFF6D2532AE0FFAC00448E29 /* BenefitListViewModel.swift */; };
+		EFF6D2562AE1027900448E29 /* MyPointViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFF6D2552AE1027900448E29 /* MyPointViewModel.swift */; };
+		EFF6D2582AE103AE00448E29 /* ButtonBenefitViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFF6D2572AE103AE00448E29 /* ButtonBenefitViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -73,6 +76,9 @@
 		EFF6D24C2ADFDC6000448E29 /* ButtonBenefitViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonBenefitViewController.swift; sourceTree = "<group>"; };
 		EFF6D24F2ADFDCC700448E29 /* BenefitDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BenefitDetails.swift; sourceTree = "<group>"; };
 		EFF6D2512ADFE28F00448E29 /* BenefitGuideView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BenefitGuideView.swift; sourceTree = "<group>"; };
+		EFF6D2532AE0FFAC00448E29 /* BenefitListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BenefitListViewModel.swift; sourceTree = "<group>"; };
+		EFF6D2552AE1027900448E29 /* MyPointViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyPointViewModel.swift; sourceTree = "<group>"; };
+		EFF6D2572AE103AE00448E29 /* ButtonBenefitViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonBenefitViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -169,6 +175,7 @@
 			children = (
 				94BD335B285D5C9E008DA3B7 /* Main.storyboard */,
 				EFF6D22F2ADD255B00448E29 /* BenefitListViewController.swift */,
+				EFF6D2532AE0FFAC00448E29 /* BenefitListViewModel.swift */,
 				EFF6D2392ADD66FB00448E29 /* MyPointCell.swift */,
 				EFF6D23B2ADD670D00448E29 /* TodayBenefitCell.swift */,
 				EFF6D23D2ADD671900448E29 /* BenefitCell.swift */,
@@ -181,6 +188,7 @@
 			children = (
 				EFF6D2412ADFC66500448E29 /* MyPoint.storyboard */,
 				EFF6D2432ADFC69700448E29 /* MyPoinViewController.swift */,
+				EFF6D2552AE1027900448E29 /* MyPointViewModel.swift */,
 			);
 			path = MyPoint;
 			sourceTree = "<group>";
@@ -190,6 +198,7 @@
 			children = (
 				EFF6D2462ADFDC2F00448E29 /* ButtonBenefit.storyboard */,
 				EFF6D24C2ADFDC6000448E29 /* ButtonBenefitViewController.swift */,
+				EFF6D2572AE103AE00448E29 /* ButtonBenefitViewModel.swift */,
 				EFF6D2512ADFE28F00448E29 /* BenefitGuideView.swift */,
 			);
 			path = Benefit;
@@ -336,8 +345,11 @@
 				EFF6D2322ADD64D300448E29 /* Benefit.swift in Sources */,
 				EFF6D24D2ADFDC6000448E29 /* ButtonBenefitViewController.swift in Sources */,
 				EFF6D23C2ADD670D00448E29 /* TodayBenefitCell.swift in Sources */,
+				EFF6D2542AE0FFAC00448E29 /* BenefitListViewModel.swift in Sources */,
 				94BD3356285D5C9E008DA3B7 /* AppDelegate.swift in Sources */,
+				EFF6D2562AE1027900448E29 /* MyPointViewModel.swift in Sources */,
 				EFF6D23A2ADD66FB00448E29 /* MyPointCell.swift in Sources */,
+				EFF6D2582AE103AE00448E29 /* ButtonBenefitViewModel.swift in Sources */,
 				EFF6D2502ADFDCC700448E29 /* BenefitDetails.swift in Sources */,
 				94BD3358285D5C9E008DA3B7 /* SceneDelegate.swift in Sources */,
 				EFF6D2522ADFE28F00448E29 /* BenefitGuideView.swift in Sources */,
