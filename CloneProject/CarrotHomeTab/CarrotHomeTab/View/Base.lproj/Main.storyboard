@@ -16,12 +16,13 @@
                     <toolbarItems/>
                     <navigationItem key="navigationItem" id="dEo-33-bqP"/>
                     <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="0NU-6L-BSK">
+                        <rect key="frame" x="0.0" y="0.0" width="1000" height="1000"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <color key="selectedImageTintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </tabBar>
                     <connections>
-                        <segue destination="kiz-pv-WGW" kind="relationship" relationship="viewControllers" id="uTF-fr-2Cb"/>
+                        <segue destination="BDj-aZ-CBr" kind="relationship" relationship="viewControllers" id="uTF-fr-2Cb"/>
                         <segue destination="4ms-GA-FVQ" kind="relationship" relationship="viewControllers" id="FHk-7x-55K"/>
                         <segue destination="5I4-yT-r9H" kind="relationship" relationship="viewControllers" id="xaN-Wa-W5c"/>
                         <segue destination="Ft9-nI-qzt" kind="relationship" relationship="viewControllers" id="gD9-kQ-Jeg"/>
@@ -31,41 +32,6 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="BwY-3L-LhD" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1006" y="80"/>
-        </scene>
-        <!--홈-->
-        <scene sceneID="HAK-3j-zz1">
-            <objects>
-                <viewController storyboardIdentifier="HomeViewController" id="kiz-pv-WGW" customClass="HomeViewController" customModule="CarrotHomeTab" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="43w-er-CEd">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Home" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VFh-ye-k6M">
-                                <rect key="frame" x="186" y="450" width="46" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="asm-ag-OJK">
-                                <rect key="frame" x="124" y="605" width="166" height="95"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="filled" title="Button"/>
-                                <connections>
-                                    <action selector="ctaButtonTapped:" destination="kiz-pv-WGW" eventType="touchUpInside" id="0wl-x2-LYk"/>
-                                </connections>
-                            </button>
-                        </subviews>
-                        <viewLayoutGuide key="safeArea" id="IFj-bq-OMM"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                    </view>
-                    <tabBarItem key="tabBarItem" title="홈" image="homekit" catalog="system" id="fCq-tP-aKl"/>
-                    <navigationItem key="navigationItem" id="oSS-lr-0lb"/>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="CEc-9Y-mxR" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="-336.23188405797106" y="1004.4642857142857"/>
         </scene>
         <!--Item-->
         <scene sceneID="CG3-mJ-Fm7">
@@ -150,10 +116,19 @@
             </objects>
             <point key="canvasLocation" x="2345" y="1004"/>
         </scene>
+        <!--HomeViewController-->
+        <scene sceneID="HGZ-e3-PW0">
+            <objects>
+                <viewControllerPlaceholder storyboardIdentifier="HomeViewController" storyboardName="Home" referencedIdentifier="HomeViewController" id="BDj-aZ-CBr" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Item" id="CgO-kT-Ovq"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="7gi-Mz-9a7" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-336.23188405797106" y="1004.4642857142857"/>
+        </scene>
     </scenes>
     <resources>
         <image name="doc" catalog="system" width="115" height="128"/>
-        <image name="homekit" catalog="system" width="128" height="104"/>
         <image name="mappin.and.ellipse" catalog="system" width="110" height="128"/>
         <image name="person" catalog="system" width="128" height="121"/>
         <image name="rectangle.3.group.bubble" catalog="system" width="128" height="110"/>

@@ -29,6 +29,8 @@
 		EFF6D2682AE9038400448E29 /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFF6D2672AE9038400448E29 /* ChatViewController.swift */; };
 		EFF6D26A2AEA3DF700448E29 /* CustomBarItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFF6D2692AEA3DF700448E29 /* CustomBarItem.swift */; };
 		EFF6D26C2AEA486000448E29 /* UIBarButtonItem+CustomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFF6D26B2AEA485F00448E29 /* UIBarButtonItem+CustomView.swift */; };
+		EFF6D2762AEA8FF100448E29 /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EFF6D2742AEA8FF100448E29 /* Home.storyboard */; };
+		EFF6D2782AEA907E00448E29 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFF6D2772AEA907E00448E29 /* HomeViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -75,6 +77,8 @@
 		EFF6D2672AE9038400448E29 /* ChatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
 		EFF6D2692AEA3DF700448E29 /* CustomBarItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomBarItem.swift; sourceTree = "<group>"; };
 		EFF6D26B2AEA485F00448E29 /* UIBarButtonItem+CustomView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIBarButtonItem+CustomView.swift"; sourceTree = "<group>"; };
+		EFF6D2752AEA8FF100448E29 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = CarrotHomeTab/View/Base.lproj/Home.storyboard; sourceTree = "<group>"; };
+		EFF6D2772AEA907E00448E29 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -152,20 +156,16 @@
 			children = (
 				94BB227D28669A15004FC34D /* AppDelegate.swift */,
 				94BB227F28669A15004FC34D /* SceneDelegate.swift */,
-				94A38E57286830EA000691E1 /* Main.storyboard */,
-				EFF6D2592AE8F96000448E29 /* HomeViewController.swift */,
-				EFF6D2632AE9036F00448E29 /* MyTownViewController.swift */,
-				EFF6D2652AE9037A00448E29 /* MyProfileViewController.swift */,
-				EFF6D2672AE9038400448E29 /* ChatViewController.swift */,
-				EFF6D25D2AE8FA2200448E29 /* MainNavigationViewController.swift */,
-				EFF6D25F2AE8FA3900448E29 /* MainTabBarController.swift */,
-				EFF6D26B2AEA485F00448E29 /* UIBarButtonItem+CustomView.swift */,
-				EFF6D2692AEA3DF700448E29 /* CustomBarItem.swift */,
-				EFF6D25B2AE8F96800448E29 /* DetailViewController.swift */,
-				EFF6D2612AE8FA7C00448E29 /* Detail.storyboard */,
+				EFF6D2732AEA8E9F00448E29 /* View */,
+				94A38E4B2868307C000691E1 /* Model */,
+				EFF6D26D2AEA8D5200448E29 /* Home */,
+				EFF6D2702AEA8D7600448E29 /* MyProfile */,
+				EFF6D26E2AEA8D5E00448E29 /* MyTown */,
+				EFF6D26F2AEA8D6700448E29 /* Chat */,
+				EFF6D2712AEA8D8600448E29 /* Detail */,
 				9402EE1528673FB100D33FDD /* Utils */,
 				9402EE0E28673D9C00D33FDD /* Network */,
-				94A38E4B2868307C000691E1 /* Model */,
+				EFF6D2722AEA8D9E00448E29 /* Extension */,
 				94BB228628669A16004FC34D /* Assets.xcassets */,
 				94BB228828669A16004FC34D /* LaunchScreen.storyboard */,
 				94BB228B28669A16004FC34D /* Info.plist */,
@@ -188,6 +188,68 @@
 				94BB22A028669A17004FC34D /* CarrotHomeTabUITestsLaunchTests.swift */,
 			);
 			path = CarrotHomeTabUITests;
+			sourceTree = "<group>";
+		};
+		EFF6D26D2AEA8D5200448E29 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				EFF6D2742AEA8FF100448E29 /* Home.storyboard */,
+				EFF6D2592AE8F96000448E29 /* HomeViewController.swift */,
+				EFF6D2772AEA907E00448E29 /* HomeViewModel.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		EFF6D26E2AEA8D5E00448E29 /* MyTown */ = {
+			isa = PBXGroup;
+			children = (
+				EFF6D2632AE9036F00448E29 /* MyTownViewController.swift */,
+			);
+			path = MyTown;
+			sourceTree = "<group>";
+		};
+		EFF6D26F2AEA8D6700448E29 /* Chat */ = {
+			isa = PBXGroup;
+			children = (
+				EFF6D2672AE9038400448E29 /* ChatViewController.swift */,
+			);
+			path = Chat;
+			sourceTree = "<group>";
+		};
+		EFF6D2702AEA8D7600448E29 /* MyProfile */ = {
+			isa = PBXGroup;
+			children = (
+				EFF6D2652AE9037A00448E29 /* MyProfileViewController.swift */,
+			);
+			path = MyProfile;
+			sourceTree = "<group>";
+		};
+		EFF6D2712AEA8D8600448E29 /* Detail */ = {
+			isa = PBXGroup;
+			children = (
+				EFF6D25B2AE8F96800448E29 /* DetailViewController.swift */,
+				EFF6D2612AE8FA7C00448E29 /* Detail.storyboard */,
+			);
+			path = Detail;
+			sourceTree = "<group>";
+		};
+		EFF6D2722AEA8D9E00448E29 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				EFF6D26B2AEA485F00448E29 /* UIBarButtonItem+CustomView.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		EFF6D2732AEA8E9F00448E29 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				EFF6D25D2AE8FA2200448E29 /* MainNavigationViewController.swift */,
+				EFF6D25F2AE8FA3900448E29 /* MainTabBarController.swift */,
+				94A38E57286830EA000691E1 /* Main.storyboard */,
+				EFF6D2692AEA3DF700448E29 /* CustomBarItem.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -299,6 +361,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				94BB228A28669A16004FC34D /* LaunchScreen.storyboard in Resources */,
+				EFF6D2762AEA8FF100448E29 /* Home.storyboard in Resources */,
 				94A38E5C286830EA000691E1 /* Main.storyboard in Resources */,
 				94BB228728669A16004FC34D /* Assets.xcassets in Resources */,
 				EFF6D2622AE8FA7C00448E29 /* Detail.storyboard in Resources */,
@@ -329,6 +392,7 @@
 				94BB227E28669A15004FC34D /* AppDelegate.swift in Sources */,
 				EFF6D25E2AE8FA2200448E29 /* MainNavigationViewController.swift in Sources */,
 				EFF6D2602AE8FA3900448E29 /* MainTabBarController.swift in Sources */,
+				EFF6D2782AEA907E00448E29 /* HomeViewModel.swift in Sources */,
 				94A38E512868307C000691E1 /* ItemInfo.swift in Sources */,
 				94BB228028669A15004FC34D /* SceneDelegate.swift in Sources */,
 				9402EE1728673FB100D33FDD /* Publisher+Utils.swift in Sources */,
@@ -391,6 +455,14 @@
 				94BB228928669A16004FC34D /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		EFF6D2742AEA8FF100448E29 /* Home.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EFF6D2752AEA8FF100448E29 /* Base */,
+			);
+			name = Home.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
