@@ -31,6 +31,7 @@
 		EFF6D26C2AEA486000448E29 /* UIBarButtonItem+CustomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFF6D26B2AEA485F00448E29 /* UIBarButtonItem+CustomView.swift */; };
 		EFF6D2762AEA8FF100448E29 /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EFF6D2742AEA8FF100448E29 /* Home.storyboard */; };
 		EFF6D2782AEA907E00448E29 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFF6D2772AEA907E00448E29 /* HomeViewModel.swift */; };
+		EFF6D27A2AEBD0C800448E29 /* ItemInfoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFF6D2792AEBD0C800448E29 /* ItemInfoCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -79,6 +80,7 @@
 		EFF6D26B2AEA485F00448E29 /* UIBarButtonItem+CustomView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIBarButtonItem+CustomView.swift"; sourceTree = "<group>"; };
 		EFF6D2752AEA8FF100448E29 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = CarrotHomeTab/View/Base.lproj/Home.storyboard; sourceTree = "<group>"; };
 		EFF6D2772AEA907E00448E29 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		EFF6D2792AEBD0C800448E29 /* ItemInfoCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemInfoCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -196,6 +198,7 @@
 				EFF6D2742AEA8FF100448E29 /* Home.storyboard */,
 				EFF6D2592AE8F96000448E29 /* HomeViewController.swift */,
 				EFF6D2772AEA907E00448E29 /* HomeViewModel.swift */,
+				EFF6D2792AEBD0C800448E29 /* ItemInfoCell.swift */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -404,6 +407,7 @@
 				EFF6D26A2AEA3DF700448E29 /* CustomBarItem.swift in Sources */,
 				EFF6D26C2AEA486000448E29 /* UIBarButtonItem+CustomView.swift in Sources */,
 				9402EE1228673D9C00D33FDD /* Resource.swift in Sources */,
+				EFF6D27A2AEBD0C800448E29 /* ItemInfoCell.swift in Sources */,
 				EFF6D25C2AE8F96800448E29 /* DetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
