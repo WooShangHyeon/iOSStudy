@@ -33,6 +33,8 @@
 		EFF6D2782AEA907E00448E29 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFF6D2772AEA907E00448E29 /* HomeViewModel.swift */; };
 		EFF6D27A2AEBD0C800448E29 /* ItemInfoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFF6D2792AEBD0C800448E29 /* ItemInfoCell.swift */; };
 		EFF6D27D2AEFD04A00448E29 /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = EFF6D27C2AEFD04A00448E29 /* Kingfisher */; };
+		EFF6D27F2AEFD34B00448E29 /* DetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFF6D27E2AEFD34B00448E29 /* DetailViewModel.swift */; };
+		EFF6D2812AEFD38900448E29 /* IteminfoDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFF6D2802AEFD38900448E29 /* IteminfoDetails.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -82,6 +84,8 @@
 		EFF6D2752AEA8FF100448E29 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = CarrotHomeTab/View/Base.lproj/Home.storyboard; sourceTree = "<group>"; };
 		EFF6D2772AEA907E00448E29 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
 		EFF6D2792AEBD0C800448E29 /* ItemInfoCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemInfoCell.swift; sourceTree = "<group>"; };
+		EFF6D27E2AEFD34B00448E29 /* DetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewModel.swift; sourceTree = "<group>"; };
+		EFF6D2802AEFD38900448E29 /* IteminfoDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IteminfoDetails.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -233,7 +237,9 @@
 			isa = PBXGroup;
 			children = (
 				EFF6D25B2AE8F96800448E29 /* DetailViewController.swift */,
+				EFF6D27E2AEFD34B00448E29 /* DetailViewModel.swift */,
 				EFF6D2612AE8FA7C00448E29 /* Detail.storyboard */,
+				EFF6D2802AEFD38900448E29 /* IteminfoDetails.swift */,
 			);
 			path = Detail;
 			sourceTree = "<group>";
@@ -404,11 +410,13 @@
 				94BB228028669A15004FC34D /* SceneDelegate.swift in Sources */,
 				9402EE1728673FB100D33FDD /* Publisher+Utils.swift in Sources */,
 				EFF6D2662AE9037A00448E29 /* MyProfileViewController.swift in Sources */,
+				EFF6D2812AEFD38900448E29 /* IteminfoDetails.swift in Sources */,
 				9402EE1128673D9C00D33FDD /* NetworkService.swift in Sources */,
 				EFF6D25A2AE8F96000448E29 /* HomeViewController.swift in Sources */,
 				EFF6D2682AE9038400448E29 /* ChatViewController.swift in Sources */,
 				EFF6D2642AE9036F00448E29 /* MyTownViewController.swift in Sources */,
 				EFF6D26A2AEA3DF700448E29 /* CustomBarItem.swift in Sources */,
+				EFF6D27F2AEFD34B00448E29 /* DetailViewModel.swift in Sources */,
 				EFF6D26C2AEA486000448E29 /* UIBarButtonItem+CustomView.swift in Sources */,
 				9402EE1228673D9C00D33FDD /* Resource.swift in Sources */,
 				EFF6D27A2AEBD0C800448E29 /* ItemInfoCell.swift in Sources */,
