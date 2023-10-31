@@ -22,8 +22,8 @@ final class DetailViewModel {
     }
     
     func fetch() {
-        DispatchQueue.global().asyncAfter(deadline: .now() + 1.5) {
-//            self.itemInfoDetails = IteminfoDetails()
+        DispatchQueue.global().asyncAfter(deadline: .now() + 1.5) { [unowned self] in
+            self.itemInfoDetails = ItemInfoDetails(user: User.mock, item: self.itemInfo, details: ItemExtraInfo.mock)
         }
     }
 }
