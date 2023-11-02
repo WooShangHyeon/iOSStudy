@@ -162,18 +162,90 @@
                                 <viewLayoutGuide key="contentLayoutGuide" id="ViN-K6-Kul"/>
                                 <viewLayoutGuide key="frameLayoutGuide" id="iH1-et-Rff"/>
                             </scrollView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="9gv-NU-bNv">
+                                <rect key="frame" x="0.0" y="732" width="393" height="120"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="EZb-7F-PlL">
+                                        <rect key="frame" x="15" y="10" width="363" height="60"/>
+                                        <subviews>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="heart" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="U2h-11-hqu">
+                                                <rect key="frame" x="0.0" y="2" width="30" height="57"/>
+                                                <color key="tintColor" systemColor="systemGrayColor"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="30" id="Epg-0u-6P7"/>
+                                                </constraints>
+                                            </imageView>
+                                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="fpe-kw-2NH">
+                                                <rect key="frame" x="50" y="0.0" width="173" height="60"/>
+                                                <subviews>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="가격 가격 가격" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qS8-iS-qD1">
+                                                        <rect key="frame" x="0.0" y="0.0" width="173" height="35"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="height" constant="35" id="2fK-Q7-Fam"/>
+                                                        </constraints>
+                                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
+                                                        <nil key="textColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="가격 제안 불가" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mhM-yU-5dI">
+                                                        <rect key="frame" x="0.0" y="35" width="173" height="25"/>
+                                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="16"/>
+                                                        <color key="textColor" systemColor="systemGrayColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                </subviews>
+                                            </stackView>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jrE-hn-hCj">
+                                                <rect key="frame" x="243" y="0.0" width="120" height="60"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="120" id="a98-vg-Lrs"/>
+                                                </constraints>
+                                                <color key="tintColor" systemColor="systemOrangeColor"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="filled" title="채팅하기">
+                                                    <fontDescription key="titleFontDescription" type="boldSystem" pointSize="20"/>
+                                                </buttonConfiguration>
+                                            </button>
+                                        </subviews>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="60" id="enb-vU-ytl"/>
+                                        </constraints>
+                                    </stackView>
+                                    <view alpha="0.20000000000000001" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="tOg-hI-nom">
+                                        <rect key="frame" x="0.0" y="0.0" width="393" height="1"/>
+                                        <color key="backgroundColor" systemColor="systemGrayColor"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="1" id="CH9-kL-dJm"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <constraints>
+                                    <constraint firstItem="EZb-7F-PlL" firstAttribute="centerX" secondItem="9gv-NU-bNv" secondAttribute="centerX" id="0LI-WC-cNY"/>
+                                    <constraint firstItem="tOg-hI-nom" firstAttribute="leading" secondItem="9gv-NU-bNv" secondAttribute="leading" id="5Ty-0k-oSn"/>
+                                    <constraint firstItem="EZb-7F-PlL" firstAttribute="leading" secondItem="9gv-NU-bNv" secondAttribute="leading" constant="15" id="Xw6-ir-tsk"/>
+                                    <constraint firstAttribute="height" constant="120" id="aAP-gL-XVC"/>
+                                    <constraint firstAttribute="trailing" secondItem="tOg-hI-nom" secondAttribute="trailing" id="iVz-hg-MqH"/>
+                                    <constraint firstItem="EZb-7F-PlL" firstAttribute="top" secondItem="9gv-NU-bNv" secondAttribute="top" constant="10" id="m5W-Xv-dsN"/>
+                                    <constraint firstItem="tOg-hI-nom" firstAttribute="top" secondItem="9gv-NU-bNv" secondAttribute="top" id="pMG-QV-7pp"/>
+                                </constraints>
+                            </view>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="vDu-zF-Fre"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
                             <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="ZV7-ca-B9n" secondAttribute="trailing" id="97e-cg-xor"/>
                             <constraint firstItem="vDu-zF-Fre" firstAttribute="bottom" secondItem="ZV7-ca-B9n" secondAttribute="bottom" id="Ofa-TE-A8T"/>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="9gv-NU-bNv" secondAttribute="trailing" id="Px1-Nx-FeQ"/>
                             <constraint firstItem="dIk-rL-f99" firstAttribute="width" secondItem="5EZ-qb-Rvc" secondAttribute="width" id="TeM-oa-cA4"/>
                             <constraint firstItem="ZV7-ca-B9n" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" id="UCu-ja-Baj"/>
+                            <constraint firstAttribute="bottom" secondItem="9gv-NU-bNv" secondAttribute="bottom" id="Wrl-G0-DH2"/>
+                            <constraint firstItem="9gv-NU-bNv" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" id="krm-1I-ZzS"/>
                             <constraint firstAttribute="top" secondItem="ZV7-ca-B9n" secondAttribute="top" id="pto-yn-r26"/>
                         </constraints>
                     </view>
                     <connections>
+                        <outlet property="itemPriceLabel" destination="qS8-iS-qD1" id="8Bm-bW-VmW"/>
                         <outlet property="itemThumbnail" destination="tRe-mq-OkH" id="MYX-gk-8NX"/>
                         <outlet property="iteminfoDescription" destination="z9X-vf-6vd" id="dw7-lN-Qvy"/>
                         <outlet property="iteminfoTitel" destination="HgO-0Z-jtB" id="ajY-Jh-gTz"/>
@@ -189,11 +261,15 @@
         </scene>
     </scenes>
     <resources>
+        <image name="heart" catalog="system" width="128" height="107"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
         <systemColor name="systemGrayColor">
             <color red="0.55686274509803924" green="0.55686274509803924" blue="0.57647058823529407" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemOrangeColor">
+            <color red="1" green="0.58431372549019611" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
         <systemColor name="systemYellowColor">
             <color red="1" green="0.80000000000000004" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>

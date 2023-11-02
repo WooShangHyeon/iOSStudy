@@ -135,12 +135,22 @@
                                                         </view>
                                                     </subviews>
                                                 </stackView>
+                                                <view alpha="0.20000000298023224" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="MmJ-d3-GZk">
+                                                    <rect key="frame" x="0.0" y="119" width="414" height="1"/>
+                                                    <color key="backgroundColor" systemColor="systemGrayColor"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="height" constant="1" id="jGt-0n-rc0"/>
+                                                    </constraints>
+                                                </view>
                                             </subviews>
                                             <constraints>
+                                                <constraint firstAttribute="trailing" secondItem="MmJ-d3-GZk" secondAttribute="trailing" id="1G5-KE-xJZ"/>
                                                 <constraint firstAttribute="trailing" secondItem="dsS-VM-Ns2" secondAttribute="trailing" id="27G-Ih-9Xd"/>
                                                 <constraint firstItem="dsS-VM-Ns2" firstAttribute="top" secondItem="NdW-5x-PO1" secondAttribute="top" id="Irt-xp-4zx"/>
                                                 <constraint firstAttribute="bottom" secondItem="dsS-VM-Ns2" secondAttribute="bottom" id="XHI-vS-uqA"/>
+                                                <constraint firstItem="MmJ-d3-GZk" firstAttribute="leading" secondItem="NdW-5x-PO1" secondAttribute="leading" id="fFB-RV-EaR"/>
                                                 <constraint firstItem="dsS-VM-Ns2" firstAttribute="leading" secondItem="NdW-5x-PO1" secondAttribute="leading" id="ges-LN-Lem"/>
+                                                <constraint firstAttribute="bottom" secondItem="MmJ-d3-GZk" secondAttribute="bottom" id="rzW-CC-LNu"/>
                                             </constraints>
                                         </collectionViewCellContentView>
                                         <size key="customSize" width="414" height="120"/>
